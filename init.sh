@@ -10,8 +10,9 @@ export NVM_DIR="$HOME/.nvm"
 nvm install 8
 npm install -g solc
 npm install -g truffle
+npm install -g ethereumjs-testrpc
 
 
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-sudo python get-pip.py
-sudo pip install eth-testrpc
+#curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+#sudo python get-pip.py
+#sudo pip install eth-testrpc
